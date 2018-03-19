@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_margin="2.5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dynamicsTitle"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piano pianissimo"/>
+
+        <TextView
+            android:id="@+id/dynamicsBig"
+            android:textSize="40sp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ppp"
+            android:textStyle="italic|bold"/>
+
+        <TextView
+            android:id="@+id/dynamicsBottom"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Softest!"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

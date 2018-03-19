@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="1dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    app:cardElevation="0dp"
+    app:cardCornerRadius="0dp">
+
+    <RelativeLayout
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/m9Item"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/m9Img"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/m9Img"
+            android:id="@+id/m9Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Major"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@id/m9Img" />
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/m9Img"
+            android:layout_below="@id/m9Title"
+            android:id="@+id/linear1"
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@id/m9Img">
+
+            <TextView
+                android:id="@+id/m9Desc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Root1"/>
+
+            <TextView
+                android:id="@+id/m9Desc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Root1"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

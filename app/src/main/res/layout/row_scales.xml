@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="0dp"
+    app:cardCornerRadius="0dp"
+    android:layout_marginBottom="1dp">
+
+    <RelativeLayout
+        android:id="@+id/scalesItem"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="15sp"
+            android:padding="20dp"
+            android:id="@+id/scalesTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ini Tulisan"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

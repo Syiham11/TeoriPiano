@@ -9,13 +9,53 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".chord.ChordActivity"
+            android:parentActivityName=".chord.ChordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".intervals.IntervalsActivity"
+            android:parentActivityName=".intervals.IntervalsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".notevalues.NoteValuesActivity"
+            android:parentActivityName=".notevalues.NoteValuesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rests.RestsActivity"
+            android:parentActivityName=".rests.RestsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".circle.CircleOfFifthsActivity"
+            android:parentActivityName=".circle.CircleOfFifthsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scales.ScalesActivity"
+            android:parentActivityName=".scales.ScalesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".octaves.OctavesActivity"
+            android:parentActivityName=".octaves.OctavesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".symbols.SymbolsActivity"
+            android:parentActivityName=".symbols.SymbolsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".piano.PianoActivity"
+            android:parentActivityName=".piano.PianoActivity"
+            android:screenOrientation="landscape" />
+
+        <activity android:name=".test.TestActivity"
+            android:parentActivityName=".test.TestActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

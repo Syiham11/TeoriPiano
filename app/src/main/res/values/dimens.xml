@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="minor_left_c_margin">130dp</dimen>
+    <dimen name="minor_cde_margin_right">20dp</dimen>
+    <dimen name="minor_ef_margin_right">70dp</dimen>
+    <dimen name="minor_width">30dp</dimen>
+    <dimen name="minor_height">130dp</dimen>
+    <dimen name="mayor_width">50dp</dimen>
+    <dimen name="mayor_height">200dp</dimen>
+    <dimen name="margin_top_piano_key">50dp</dimen>
+    <dimen name="card_test_width">150dp</dimen>
+    <dimen name="card_test_height">80dp</dimen>
+</resources>

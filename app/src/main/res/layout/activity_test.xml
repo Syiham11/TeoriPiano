@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ginanjar.teoripiano.test.TestActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/test_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="28sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_marginBottom="30dp"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_nada_pada_gambar_di_bawah_ini_adalah"/>
+
+        <ImageView
+            android:src="@drawable/ic_launcher_background"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <GridLayout
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:rowCount="2"
+            android:columnCount="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="0dp"
+                android:layout_width="@dimen/card_test_width"
+                android:layout_height="@dimen/card_test_height"
+                android:layout_marginEnd="1dp">
+
+                <TextView
+                    android:background="@drawable/mayor_border"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="A"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="0dp"
+                android:layout_width="@dimen/card_test_width"
+                android:layout_height="@dimen/card_test_height"
+                android:layout_marginEnd="1dp">
+
+                <TextView
+                    android:background="@drawable/mayor_border"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="A"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="0dp"
+                android:layout_width="@dimen/card_test_width"
+                android:layout_height="@dimen/card_test_height"
+                android:layout_marginEnd="1dp">
+
+                <TextView
+                    android:background="@drawable/mayor_border"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="A"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="0dp"
+                android:layout_width="@dimen/card_test_width"
+                android:layout_height="@dimen/card_test_height"
+                android:layout_marginEnd="1dp">
+
+                <TextView
+                    android:background="@drawable/mayor_border"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="A"/>
+
+            </android.support.v7.widget.CardView>
+
+        </GridLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Teori Piano</string>
+    <string name="teori_musik">Teori Musik</string>
+    <string name="ini_menu">Ini Menu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info_intervals">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="g">G</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c_db">C# Db</string>
+    <string name="d_eb">D# Eb</string>
+    <string name="f_gb">F# Gb</string>
+    <string name="g_ab">G# Ab</string>
+    <string name="a_bb">A# Bb</string>
+    <string name="c">C</string>
+    <string name="c3">C3</string>
+    <string name="c4">C4</string>
+    <string name="c5">C5</string>
+    <string name="nama_nada_pada_gambar_di_bawah_ini_adalah">Nama nada pada gambar di bawah ini adalah ...</string>
 </resources>
