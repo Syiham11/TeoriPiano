@@ -25,6 +25,7 @@
         android:layout_height="wrap_content">
 
         <TextView
+            android:id="@+id/test_num"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -33,6 +34,7 @@
             android:textAlignment="center"/>
 
         <TextView
+            android:id="@+id/test_question"
             android:layout_marginBottom="30dp"
             android:padding="20dp"
             android:layout_width="match_parent"
@@ -40,6 +42,7 @@
             android:text="@string/nama_nada_pada_gambar_di_bawah_ini_adalah"/>
 
         <ImageView
+            android:id="@+id/test_img"
             android:src="@drawable/ic_launcher_background"
             android:layout_gravity="center|center_horizontal"
             android:layout_width="wrap_content"
@@ -54,6 +57,7 @@
             android:layout_height="wrap_content">
 
             <android.support.v7.widget.CardView
+                android:id="@+id/opsi_1"
                 android:layout_marginTop="1dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginBottom="1dp"
@@ -64,6 +68,7 @@
                 android:layout_marginEnd="1dp">
 
                 <TextView
+                    android:id="@+id/opsi_1_text"
                     android:background="@drawable/mayor_border"
                     android:gravity="center"
                     android:layout_width="match_parent"
@@ -73,6 +78,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/opsi_2"
                 android:layout_marginTop="1dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginBottom="1dp"
@@ -83,6 +89,7 @@
                 android:layout_marginEnd="1dp">
 
                 <TextView
+                    android:id="@+id/opsi_2_text"
                     android:background="@drawable/mayor_border"
                     android:gravity="center"
                     android:layout_width="match_parent"
@@ -92,6 +99,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/opsi_3"
                 android:layout_marginTop="1dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginBottom="1dp"
@@ -102,6 +110,7 @@
                 android:layout_marginEnd="1dp">
 
                 <TextView
+                    android:id="@+id/opsi_3_text"
                     android:background="@drawable/mayor_border"
                     android:gravity="center"
                     android:layout_width="match_parent"
@@ -111,6 +120,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/opsi_4"
                 android:layout_marginTop="1dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginBottom="1dp"
@@ -121,6 +131,7 @@
                 android:layout_marginEnd="1dp">
 
                 <TextView
+                    android:id="@+id/opsi_4_text"
                     android:background="@drawable/mayor_border"
                     android:gravity="center"
                     android:layout_width="match_parent"
@@ -130,7 +141,5 @@
             </android.support.v7.widget.CardView>
 
         </GridLayout>
-
-
     </LinearLayout>
 </LinearLayout>
