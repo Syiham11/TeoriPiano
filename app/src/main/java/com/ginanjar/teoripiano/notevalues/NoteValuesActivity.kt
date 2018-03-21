@@ -16,10 +16,11 @@ class NoteValuesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_note_values)
 
-        val toolbar = findViewById<Toolbar>(R.id.noteToolbar)
-        setSupportActionBar(toolbar)
+//        val toolbar = findViewById<Toolbar>(R.id.noteToolbar)
+//        setSupportActionBar(toolbar)
         supportActionBar?.setTitle("Note Values")
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.elevation = 0F
 
         // set pager
         val pager = findViewById<ViewPager>(R.id.notePager)

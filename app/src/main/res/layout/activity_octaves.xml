@@ -12,13 +12,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <android.support.v7.widget.Toolbar
-            app:title="Octaves"
-            android:id="@+id/octavesToolbar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--app:title="Octaves"-->
+            <!--android:id="@+id/octavesToolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
 
-        </android.support.v7.widget.Toolbar>
+        <!--</android.support.v7.widget.Toolbar>-->
 
     </android.support.design.widget.AppBarLayout>
 

@@ -17,10 +17,11 @@ class SymbolsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_symbols)
 
-        val toolbarToko = findViewById<Toolbar>(R.id.symbolsToolbar)
-        setSupportActionBar(toolbarToko)
+//        val toolbarToko = findViewById<Toolbar>(R.id.symbolsToolbar)
+//        setSupportActionBar(toolbarToko)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setTitle("Symbols")
+        supportActionBar?.elevation = 0F
 
         val sectionPager = SymbolsAdapter(supportFragmentManager)
 

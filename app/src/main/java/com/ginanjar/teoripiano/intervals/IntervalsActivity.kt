@@ -16,10 +16,11 @@ class IntervalsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_intervals)
 
         // Panggil toolbar
-        val toolbar = findViewById<android.support.v7.widget.Toolbar>(R.id.toolbarIntervals)
-        setSupportActionBar(toolbar)
+//        val toolbar = findViewById<android.support.v7.widget.Toolbar>(R.id.toolbarIntervals)
+//        setSupportActionBar(toolbar)
         supportActionBar?.setTitle("Intervals")
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.elevation = 0F
 
         // Panggil adapter
         val pagerAdapter = IntervalsPagerAdapter(supportFragmentManager)

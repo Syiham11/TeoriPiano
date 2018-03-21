@@ -33,8 +33,8 @@ class TestActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_test)
-        val toolbar = findViewById<Toolbar>(R.id.test_toolbar)
-        setSupportActionBar(toolbar)
+//        val toolbar = findViewById<Toolbar>(R.id.test_toolbar)
+//        setSupportActionBar(toolbar)
         supportActionBar?.setTitle("Tes Musik")
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
@@ -56,8 +56,7 @@ class TestActivity : AppCompatActivity() {
 
     private fun randomQuestion(min: Int, max: Int, data: ArrayList<TestDatas>) {
         val rand = Random()
-        val randomNum = rand.nextInt(max - min) + min
-        Log.d("random", randomNum.toString())
+        val randomNum = rand.nextInt((max - min) + 1) + min
 
         numTest?.text = data[randomNum].num
         numQuestion?.text = data[randomNum].question
@@ -108,7 +107,6 @@ class TestActivity : AppCompatActivity() {
         opsi3?.isEnabled = b
         opsi4?.isEnabled = b
     }
-
 
     private fun setQuestion() {
         dataQuest.add(TestDatas(

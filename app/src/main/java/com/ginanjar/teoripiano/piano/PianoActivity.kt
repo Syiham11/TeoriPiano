@@ -22,8 +22,8 @@ class PianoActivity : AppCompatActivity(), View.OnTouchListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_piano)
-        val toolbar = findViewById<Toolbar>(R.id.pianoToolbar)
-        setSupportActionBar(toolbar)
+//        val toolbar = findViewById<Toolbar>(R.id.pianoToolbar)
+//        setSupportActionBar(toolbar)
         supportActionBar?.setTitle("Virtual Piano")
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 

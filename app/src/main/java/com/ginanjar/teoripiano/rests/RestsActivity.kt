@@ -13,8 +13,8 @@ class RestsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_rests)
 
-        val toolbar = findViewById<Toolbar>(R.id.restsToolbar)
-        setSupportActionBar(toolbar)
+//        val toolbar = findViewById<Toolbar>(R.id.restsToolbar)
+//        setSupportActionBar(toolbar)
         supportActionBar?.title = "Rests"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 

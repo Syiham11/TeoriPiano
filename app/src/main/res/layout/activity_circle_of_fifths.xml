@@ -13,13 +13,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbarCircle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:title="Circle of Fifths">
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:id="@+id/toolbarCircle"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:title="Circle of Fifths">-->
 
-        </android.support.v7.widget.Toolbar>
+        <!--</android.support.v7.widget.Toolbar>-->
 
     </android.support.design.widget.AppBarLayout>
 

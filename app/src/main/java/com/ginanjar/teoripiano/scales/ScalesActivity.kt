@@ -25,9 +25,10 @@ class ScalesActivity : AppCompatActivity(), MainView.ScalesView {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_scales)
 
-        val toolbar = findViewById<Toolbar>(R.id.toolbarScales)
-        setSupportActionBar(toolbar)
+//        val toolbar = findViewById<Toolbar>(R.id.toolbarScales)
+//        setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setTitle("Scales")
 
         val recy = findViewById<RecyclerView>(R.id.scalesRecy)
         recy.layoutManager = LinearLayoutManager(applicationContext)

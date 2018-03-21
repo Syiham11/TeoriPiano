@@ -15,10 +15,12 @@ class ChordActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chord)
 
-        val toolbarToko = findViewById<android.support.v7.widget.Toolbar>(R.id.toolbarChord)
-        setSupportActionBar(toolbarToko)
+//        val toolbarToko = findViewById<android.support.v7.widget.Toolbar>(R.id.toolbarChord)
+//        toolbarToko.setTitleTextColor(android.graphics.Color.WHITE)
+//        setSupportActionBar(toolbarToko)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setTitle("Chord")
+        supportActionBar?.elevation = 0F
 
         val sectionPager = ChordAdapter(supportFragmentManager)
 

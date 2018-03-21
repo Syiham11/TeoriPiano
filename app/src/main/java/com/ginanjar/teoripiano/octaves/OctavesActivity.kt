@@ -13,9 +13,10 @@ class OctavesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_octaves)
 
-        val toolbar = findViewById<Toolbar>(R.id.octavesToolbar)
-        setSupportActionBar(toolbar)
+//        val toolbar = findViewById<Toolbar>(R.id.octavesToolbar)
+//        setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setTitle("Octaves")
 
         val card1 = findViewById<RelativeLayout>(R.id.card1)
         val card2 = findViewById<RelativeLayout>(R.id.card2)

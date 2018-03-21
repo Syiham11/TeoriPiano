@@ -11,15 +11,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbarChord"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary">
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar"-->
+            <!--android:id="@+id/toolbarChord"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?attr/actionBarSize"-->
+            <!--android:background="?attr/colorPrimary">-->
 
-        </android.support.v7.widget.Toolbar>
+        <!--</android.support.v7.widget.Toolbar>-->
 
         <android.support.design.widget.TabLayout
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
             android:id="@+id/tabChord"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
