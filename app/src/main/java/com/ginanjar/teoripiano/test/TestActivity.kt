@@ -165,5 +165,12 @@ class TestActivity : AppCompatActivity() {
                 "Ya", "Tidak", "Bisa Jadi", "No Comment",
                 1
         ))
+        dataQuest.add(TestDatas(
+                "9",
+                "Apakah saya pintar?",
+                R.drawable.ic_launcher_background,
+                "Ya", "Tidak", "Bisa Jadi", "No Comment",
+                4
+        ))
     }
 }

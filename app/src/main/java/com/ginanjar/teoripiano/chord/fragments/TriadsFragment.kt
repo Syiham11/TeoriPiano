@@ -38,16 +38,16 @@ class TriadsFragment : Fragment() {
 
     private fun setData(chordData: ArrayList<TriadsDatas>): List<TriadsDatas> {
         chordData.add(TriadsDatas(
-                R.mipmap.ic_launcher, R.raw.music,
+                R.drawable.c_dur, R.raw.music,
                 "Major",
-                "Root1", "Root2", "Root3",
-                "C", "D", "G"
+                "(1)Root", "(3)Major Third", "(5)Perfect Fifth",
+                "C", "E", "G"
         ))
 
         chordData.add(TriadsDatas(
-                R.mipmap.ic_launcher, R.raw.music,
+                R.drawable.c_moll, R.raw.music,
                 "Minor",
-                "Root1", "Root2", "Root3",
+                "(1)Root", "Root2", "Root3",
                 "C", "D", "G"
         ))
 

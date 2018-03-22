@@ -14,6 +14,7 @@ class ChordActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chord)
+        supportActionBar?.setTitle(R.string.chord)
 
 //        val toolbarToko = findViewById<android.support.v7.widget.Toolbar>(R.id.toolbarChord)
 //        toolbarToko.setTitleTextColor(android.graphics.Color.WHITE)

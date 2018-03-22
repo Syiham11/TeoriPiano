@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".main.MainActivity">
+        <activity
+            android:name=".main.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -52,9 +57,12 @@
             android:name=".piano.PianoActivity"
             android:parentActivityName=".piano.PianoActivity"
             android:screenOrientation="landscape" />
-
-        <activity android:name=".test.TestActivity"
+        <activity
+            android:name=".test.TestActivity"
             android:parentActivityName=".test.TestActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".info.InfoActivity"
+            android:parentActivityName=".info.InfoActivity"
             android:screenOrientation="portrait"/>
     </application>
 

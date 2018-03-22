@@ -22,4 +22,14 @@
     <string name="c4">C4</string>
     <string name="c5">C5</string>
     <string name="nama_nada_pada_gambar_di_bawah_ini_adalah">Nama nada pada gambar di bawah ini adalah ...</string>
+    <string name="chord">Chords</string>
+    <string name="notasi">Notasi</string>
+    <string name="nilai_notasi">Nilai Notasi</string>
+    <string name="tempo">Tempo</string>
+    <string name="circle">Circle of Fifths</string>
+    <string name="skala">Skala</string>
+    <string name="oktaf">Oktaf</string>
+    <string name="simbol">Simbol</string>
+    <string name="virtual_piano">Virtual Piano</string>
+    <string name="tes_musik">Tes Musik</string>
 </resources>

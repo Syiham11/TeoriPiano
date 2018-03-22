@@ -221,6 +221,7 @@ class PianoActivity : AppCompatActivity(), View.OnTouchListener {
                     }
                 }
             }
+
             R.id.minor_Db -> {
                 when (p1?.action){
                     MotionEvent.ACTION_DOWN -> {
